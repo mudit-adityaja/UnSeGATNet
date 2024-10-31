@@ -1,4 +1,7 @@
 <h1>UnSegMedGAT</h1>
-Official code for the paper
+Official code for the paper UnSegMedGAT: Unsupervised Medical Image Segmentation using Graph Attention Networks Clustering.
+<h1>Abstract</h1>
+The data-intensive nature of supervised classification drives the interest of the researchers towards unsupervised approaches, especially for problems such as medical image segmentation, where labeled data is scarce. Building on the recent advancements of Vision transformers (ViT) in computer vision, we propose an unsupervised segmentation framework using a pre-trained Dino-ViT. In the proposed method, we leverage the inherent graph structure within the image to realize a significant performance gain for segmentation in medical images. For this, we introduce a modularity-based loss function coupled with a Graph Attention Network (GAT) to effectively capture the inherent graph topology within the image.
+Our method achieve state-of-the-art performance, even significantly surpassing or matching that of existing (semi)supervised technique such as MedSAM which is a <i>Segment Anything Model</i> in medical images. We demonstrate this using two challenging medical image datasets CVC-ColonDB and ISIC-2018. This work underscores the potential of unsupervised approaches in advancing medical image analysis in scenarios where labeled data is scarce.
 <h1>Acknowledgements</h1>
 We extend our heartfelt gratitude to the creators and contributors of <a href="https://github.com/SAMPL-Weizmann/DeepCut">Deepcut</a> which laid the foundation for our code, which is licensed under the <a href="https://github.com/SAMPL-Weizmann/DeepCut/blob/main/LICENSE.txt">MIT License.</a>
